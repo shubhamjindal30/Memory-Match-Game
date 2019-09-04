@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+
+/* Giving box-sizing to all the elements, before and after the content of each element */
+*::after, *::before, * {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eeeeee;
+    font-family: 'Coda', cursive;
+}
+
+audio {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
+
+#reload {
+    margin-left: 8px;
+    padding: 0px;
+    height: 15px;
+    width: 15px;
+}
+
+#music {
+    margin-left: 8px;
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/* CSS for the board and cards */
+.board {
+    background: linear-gradient(160deg, #3BB181 0%, #534DB5 100%);
+    box-shadow: 10px 12px 18px 0 rgba(48, 63, 75, 0.5);
+    padding: 22px;
+    border-radius: 8px;
+    min-height: 580px;
+    width: 70vw;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:0px;
+}
+
+.board .card {
+    height: 120px;
+    width: 120px;
+    background: #2E3D48;
+    color: #2E3D48;
+    border-radius: 6px;
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 3px 18px 0 rgba(48, 63, 75, 0.5);
+    margin: 3px;
+    margin-bottom: 10px;
+    
+}
+
+.board .card img {
+    display: none;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 6px;
+}
+
+.board .card.open {
+    transform: rotateY(0);
+    cursor: auto;
+    background: #02B3E5;
+}
+
+.board .card.open img {
+    display: block;
+}
+
+.board .card.match {
+    cursor: default;
+    background: #02CCBB;
+}
+
+.board .card.match img {
+    display: block;
+}
+
+/* Styles for the Score Panel */
+.score-panel {
+    width: 345px;
+    text-align: center;
+}
+
+.score-panel .restart {
+    cursor: pointer;
+}
+
+/* Media query for small screen devices */
+@media only screen and (max-width: 768px) {
+    
+    .board {
+        width: 95vw;
+        margin: 0px;
+        min-height: 97vw;
+        padding: 6px;
+    }
+    
+    .board .card {
+        width: 20vw;
+        height: 20vw;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 6px;
+    }
+    
+    img {
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    h1 {
+        font-size: 16px;
+    }
+}

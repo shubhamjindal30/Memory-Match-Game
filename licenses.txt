@@ -1,0 +1,33 @@
+Name, Author, Download URL, Licence Type
+
+Axe.png, Clker-Free-Vector-Images, https://pixabay.com/en/axe-tool-sharp-implement-chopping-47042/, CC0
+
+Balloon.png, OpenClipart-Vectors, https://pixabay.com/en/air-aircraft-balloon-basket-hot-2028111/, CC0
+
+Bird.png, OpenClipart-Vectors, https://pixabay.com/en/twitter-tweet-bird-funny-cute-117595/, CC0
+
+Bug.png,OpenClipart-Vectors, https://pixabay.com/en/ladybug-animal-beetle-bug-insect-156624/, CC0
+
+Burger.png, Clker-Free-Vector-Images, https://pixabay.com/en/hamburger-cheeseburger-fast-food-31775/, CC0
+
+Car.png, OpenClipart-Vectors, https://pixabay.com/en/auto-car-sports-car-cobra-shelby-158795/, CC0
+
+Cat.png, Clker-Free-Vector-Images, https://pixabay.com/en/cat-kitty-animals-mammals-pet-46676/, CC0
+
+Cherry.png, Clker-Free-Vector-Images, https://pixabay.com/en/cherry-fruits-cherries-fruit-food-35288/, CC0
+
+Dolphin.png, Clker-Free-Vector-Images, https://pixabay.com/en/dolphin-ocean-animal-mammal-sea-41436/, CC0
+
+Guitar.png, OpenClipart-Vectors, https://pixabay.com/en/music-guitar-rock-sound-acoustic-160285/, CC0
+
+Leaning Tower.png, Clker-Free-Vector-Images, https://pixabay.com/en/pisa-italy-leaning-tower-landmark-307883/, CC0
+
+Minion.png, Alexas_Fotos, https://pixabay.com/en/minion-figure-funny-cute-toys-2562071/, CC0
+
+Penguin.png, Clker-Free-Vector-Images, https://pixabay.com/en/penguin-bird-animal-wildlife-cold-42936/, CC0
+
+Reload.png, OpenClipart-Vectors, https://pixabay.com/en/recycle-reload-icon-arrown-circle-159650/, CC0
+
+Watermelon.png, OpenClipart-Vectors, https://pixabay.com/en/watermelon-fruit-melon-food-sweet-154510/, CC0
+
+theme_music.mp3, Eric Matyas, http://soundimage.org/wp-content/uploads/2014/04/Puzzle-Game.mp3, CC by Attribution 4.0
